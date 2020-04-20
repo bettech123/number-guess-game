@@ -1,0 +1,13 @@
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.csprojAssemblyReference.cache
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.csproj.CoreCompileInputs.cache
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.AssemblyInfoInputs.cache
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.AssemblyInfo.cs
+C:\Users\Bettec PC\NumberGuessGame\bin\Debug\netcoreapp3.1\NumberGuessGame.exe
+C:\Users\Bettec PC\NumberGuessGame\bin\Debug\netcoreapp3.1\NumberGuessGame.deps.json
+C:\Users\Bettec PC\NumberGuessGame\bin\Debug\netcoreapp3.1\NumberGuessGame.runtimeconfig.json
+C:\Users\Bettec PC\NumberGuessGame\bin\Debug\netcoreapp3.1\NumberGuessGame.runtimeconfig.dev.json
+C:\Users\Bettec PC\NumberGuessGame\bin\Debug\netcoreapp3.1\NumberGuessGame.dll
+C:\Users\Bettec PC\NumberGuessGame\bin\Debug\netcoreapp3.1\NumberGuessGame.pdb
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.dll
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.pdb
+C:\Users\Bettec PC\NumberGuessGame\obj\Debug\netcoreapp3.1\NumberGuessGame.genruntimeconfig.cache
