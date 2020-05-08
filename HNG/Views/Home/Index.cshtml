@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to my HNG Portfolio</h1>
+    <h4>Please know that this site is under contrustion. For now, just view my task4 here</h4>
+    
+</div>
+<div >
+    <img style="border-radius: 30%; width:90px; height:90px;" src="images/profile_pics.jpg" alt="profile image">
+</div>
+<div style="margin-top:50px;">
+<h3>Task 4: C# Web Application</h3>
+ <h5>Square root Number Check</h5>
+</div>
+
+<div>
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <input type="text" placeholder="Enter your name" name="name" required><br><br>
+        <input type="number" placeholder="Enter First number" name="firstNumber" required><br><br>
+        <input type="number" placeholder="Enter second number" name="secondNumber" required><br><br>
+         <button onclick="myFunction()">Check</button>
+        <!--<button type="submit">Check</button> -->
+    </form>  
+</div>
+
+<div id="myDIV">
+     @{
+    if(ViewBag.Result1 > ViewBag.Result2 || ViewBag.Result1 != null || ViewBag.Result2 != null)
+{
+   <div class="card">
+       <p>Hi @ViewBag.name1, you entered are @ViewBag.Result3, @ViewBag.Result4 <br> The the maximum square root is: @ViewBag.Result1 </p>
+   </div>
+}
+else
+{
+   <div class="card">
+       <p>Hi @ViewBag.name1, you entered @ViewBag.Result3 and @ViewBag.Result4 <br>The square root of @ViewBag.Result3 = @ViewBag.Result1 <br>The square root of @ViewBag.Result4 = @ViewBag.Result2 <br>The maximum square root is: @ViewBag.Result2</p>
+   </div>
+}
+}
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
